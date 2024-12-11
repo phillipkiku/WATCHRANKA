@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/jpg/x-icon" href="/logoicon.png" />
+    <title>News</title>
+</head>
+<body style="font-family: Nunito Sans, sans-serif;">
+    
+    <div class="navbar bg-base-100 fixed z-[2]">
+        <div class="navbar-start">
+          <div class="dropdown ">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="red"
+              >
+            
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>              
+            </div>
+            <ul
+              tabindex="0"
+              class="menu text-[1.2rem] dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-60 p-2 shadow text-[red]"
+            >
+            <li><a href="./movies&shows.html" class="justify-around">Movies & Tv-Shows</a></li>
+            <li><a href="./news.html" class="justify-around">News</a></li>
+            </ul>
+          </div>
+          <img src="./logoicon.png" class="w-[2rem] mx-[0.5rem]" alt="icon">
+          <a href="./index.html" class="text-bold text-white text-xl">WatchRanka</a>
+        </div>
+        <!--
+            <div class="navbar-">
+              <a class="btn btn-ghost text-xl text-[red] text-bold">WatchRanka</a>
+            </div>--> 
+        <div class="navbar-end">
+          <button class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </button>
+          <button class="btn btn-ghost btn-circle">
+            <div class="indicator">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                />
+              </svg>
+              <span class="badge badge-xs badge-primary indicator-item"></span>
+            </div>
+          </button>
+        </div>
+      </div>
+      
+</header>
+<main>
+  <div>
+    <h1 class="text-[5rem] text-center  md:text-[8rem] pt-[3rem] font-extrabold text-[red]">NEWS</h1>
+  </div>
+
+<!--First Image Section-->
+
+<div class="flex py-[2rem]">
+  <div class="flex-none w-14  bg-[#950217]">
+    
+  </div>
+  <div class="flex-none font-bold w-60 text-center text-[2rem] text-white">
+    Trending....
+  </div>
+  <div class="flex-none md:flex-1 bg-[#950217]">    
+  </div>
+</div>
+
+
+<div class="carousel carousel-center w-[90%] ml-[5%] md:w-[95%] md:ml-[2.5%] my-[2rem] rounded-box space-x-4 border border-[black]">
+
+  <div class="carousel-item flex flex-col w-[23rem] md:w-[35rem] ">
+    <a href="https://editorial.rottentomatoes.com/guide/popular-tv-shows/"><img src="./Great-Scenes-Mr-Beans-Holiday.jpg"  class="rounded-box md:h-[65vh]" />  </a>                
+      <div tabindex="0" class="collapse border-base-300 bg-base-200 border mt-[1rem]">
+        <div class="collapse-title text-l font-medium text-center text-[#FF9100]"> 25 Most Popular TV Shows Right Now: What to Watch on Streaming <br> Click For Description.</div>
+        <div class="collapse-content text-center">
+          <p class="text-white">Want to know what popular and new TV shows this week are keeping watchers glued to the screen and Rotten Tomatoes users engaged on site? Here’s the current top 25 series, including The Penguin, Disclaimer, Teacup, Sweetpea, Agatha All Along, and more.
+
+            Click on each show for reviews and trailers, where to watch, and how to cast your own ratings vote. Check back weekly for latest updates to the charts. (And also check out the most popular movies out right now!)</p>
+        </div>
+      </div>         
+   </div>
+
+  <div class="carousel-item flex flex-col w-[23rem] md:w-[35rem]">          
+   <a href="https://editorial.rottentomatoes.com/article/new-movies-and-shows-streaming-in-november-2024-what-to-watch-on-netflix-prime-video-disney-max-and-more/"> <img src="./jumanji-the-next-level.jpg" class="rounded-box md:h-[65vh]" /></a>
+
+      <div tabindex="0" class="collapse border-base-300 bg-base-200 border mt-[1rem]">
+        <div class="collapse-title text-l font-medium text-center text-[#FF9100]">New Movies and Shows Streaming in November 2024: What to Watch on Netflix, Prime Video, Disney+, Max and more <br> Click For Description.</div>
+        <div class="collapse-content text-center">
+          <p class="text-white">This month, streaming services add a host of new original shows and movies, as well as catalog classics. Have a look at our calendar of titles premiering on the top streaming services in May. Netflix, Prime Video and sister service Freevee, Hulu, Peacock, Max, Disney+, Paramount+, and Apple TV+ get their own pages, with a few more on the last page.
+
+            Check out the highlights up top, but you can find each streamer’s full schedule, including a list of movies they’re adding to their libraries in the month, on their respective pages below.</p>
+        </div>
+      </div>
+  </div>
+
+  <div class="carousel-item flex flex-col w-[23rem] md:w-[35rem] ">
+    <a href="https://www.metacritic.com/pictures/the-best-holiday-movies-of-the-century-ranked/"><img
+      src="./movie2.jpg"
+      class="rounded-box md:h-[65vh]" /></a>
+
+      <div tabindex="0" class="collapse border-base-300 bg-base-200 border mt-[1rem]">
+        <div class="collapse-title text-l font-medium text-center text-[#FF9100]">The Best Holiday Movies of the Century, Ranked<br> Click For Description.</div>
+        <div class="collapse-content text-center">
+          <p class="text-white">As 2024 winds down, Metacritic is looking back at the most acclaimed holiday movies of the 21st century. So if you're ready to grab a mug of hot chocolate and curl up on the couch with a festive film, Metacritic has plenty of suggestions for what to add to your watchlist. </p>
+        </div>
+      </div>
+  </div>
+
+  <div class="carousel-item flex flex-col w-[23rem] md:w-[35rem]">
+   <a href="https://www.hollywoodreporter.com/tv/tv-news/the-walking-dead-daryl-dixon-the-book-of-carol-season-3-teaser-1236052735/"> <img src="./movie1.jpg" class="rounded-box md:h-[65vh]" /></a>
+
+      <div tabindex="0" class="collapse border-base-300 bg-base-200 border mt-[1rem]">
+        <div class="collapse-title text-l font-medium text-center text-[#FF9100]">‘The Walking Dead: Daryl Dixon’ Season 3 First-Look Previews Norman Reedus and Melissa McBride’s Long Journey Home <br> Click For Description.</div>
+        <div class="collapse-content text-center">
+          <p class="text-white">
+            ‘The Walking Dead: Daryl Dixon’ Season 3 First-Look Previews Norman Reedus and Melissa McBride’s Long Journey Home
+            
+            [This story contains major spoilers from the season finale of The Walking Dead: Daryl Dixon, “The Book of Carol.”]
+            
+            After Sunday night’s season finale, Daryl Dixon and Carol Peletier are set to continue on a European journey that will eventually have a next stop in Spain. And a new, post-finale teaser shows a brief glimpse at what’s in store when the The Walking Dead: Daryl Dixon stars eventually get there.</p>
+        </div>
+      </div>
+  </div>
+  </div>    
+  </div>
+
+
+  <!--Thrid Image Section-->
+
+  <div class="flex  py-[2rem]">
+    <div class="flex-none w-14  bg-[#950217]">
+    </div>
+    <div class="flex-none font-bold w-80 text-center text-[2rem] text-white">
+      Events & Awards.
+    </div>
+    <div class="flex-none md:flex-1 bg-[#950217]">      
+    </div>
+  </div>
+  
+  <Section class="flex flex-col md:flex-row mt-[2rem]">    
+    <div class="carousel carousel-center bg-neutral rounded-box md:max-w-md space-x-4 p-4 mx-[1rem] h-[65vh]">
+      
+      <div class="carousel-item">
+        <img
+          src="./oscars1.jpg"
+          class="rounded-box w-[20rem]" />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="./oscars2.jpg"
+          class="rounded-box w-[20rem]" />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="./oscars3.jpg"
+          class="rounded-box w-[20rem]" />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="./oscars4.jpg"
+          class="rounded-box w-[20rem]" />
+      </div>
+    </div>
+    
+
+    <div class="md:w-[80%] ml-[4%] md:ml-[0%]">
+      <h2 class="card-title mb-[1rem] text-4xl md:text-5xl text-[red] justify-center font-bold text-center">OSCARS RED CARPET.</h2>
+      <div class=" w-[96%] card bg-base-300 rounded-box grid md:h-[50vh] flex-grow place-items-center font-bold text-center leading-9 text-2xl text-[white] md:mr-[1rem]">
+          <p class="w-[90%]">See who stepped out and lit up the red carpet at the 2024 Oscars. Check out all of our favorite 2024 Oscars moments, from behind-the-scenes, telecast, after parties, and more. </p>
+           </div>
+    </div>
+  </Section>          
+
+  <Section class="flex flex-col-reverse md:flex-row mt-[6rem]">  
+    <div class="md:w-[80%] ml-[4%] md:mr-[0%]">
+        <h2 class="card-title mb-[1rem] text-4xl md:text-5xl text-[red] font-bold justify-center ">PRIME TIME EMMYS.</h2>
+        <div class=" w-[96%] card bg-base-300 rounded-box grid md:h-[50vh] flex-grow place-items-center text-center font-bold leading-9 text-2xl text-[white] md:mr-[1rem]">                
+          <p class="w-[90%]" >Hiroyuki Sanada and Anna Sawai's wins for Outstanding Lead Actor and Actress in a Drama Series were some of our favorite moments at the Emmys. See the rest.</p>
+          </div>
+      </div>
+
+      <div class="carousel carousel-center bg-neutral rounded-box md:max-w-md space-x-4 p-4 mx-[1rem] h-[60vh]">
+      
+        <div class="carousel-item">
+          <img
+            src="EMMYS1.jpg"
+            class="rounded-box w-[20rem]" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="EMMYS2.jpg"
+            class="rounded-box w-[20rem]" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="EMMYS3.jpg"
+            class="rounded-box w-[20rem]" />
+        </div>
+        <div class="carousel-item ">
+          <img
+            src="EMMYS4.jpg"
+            class="rounded-box w-[20rem]" />
+        </div>
+        <
+      </div>     
+  </Section>  
+
+  <Section class="flex flex-col md:flex-row mt-[4rem]">
+    <div class="carousel carousel-center bg-neutral rounded-box  md:max-w-md space-x-4 p-4 mx-[1rem] h-[60vh]">
+      
+      <div class="carousel-item">
+        <img
+          src="./Golden1.jpg"    
+          class="rounded-box w-[20rem]" />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Golden2.jpg"
+          class="rounded-box w-[20rem]" />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Golden3.jpg"
+          class="rounded-box w-[20rem]" />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="Golden4.jpg" 
+          class="rounded-box w-[20rem]" />
+      </div>
+      <
+    </div>
+    <div class="md:w-[80%] ml-[4%] md:ml-[0%]">
+      <h2 class="card-title mb-[1rem] text-4xl md:text-5xl text-[red] justify-center  font-bold">GOLDEN GLOBES.</h2>
+      <div class=" w-[96%] card bg-base-300 rounded-box grid md:h-[50vh] flex-grow place-items-center font-bold text-center leading-9 text-2xl text-[white] md:mr-[1rem]">
+          <p class="w-[90%]">Margot Robbie stopped traffic on the Golden Globes red carpet alongside this year's nominees and handfuls of celebrities galore.</p>
+           </div>
+    </div>
+  </Section>  
+</main>
+
+<footer class="footer footer-center bg-[#7E0315] text-white p-5 mt-[2rem]">
+  <aside>
+    <img class="w-[3rem]" src="./logoicon.png" alt="logoicon" />
+    <p class="font-bold text-xl">
+      WatchRanka
+      <br />
+      Providing reliable entertainment since 2024
+    </p>
+    <p>Copyright © - All right reserved</p>
+  </aside>
+  <nav>
+    <div class="grid grid-flow-col gap-4">
+      <a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current"
+        >
+          <path
+            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+          ></path>
+        </svg>
+      </a>
+      <a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current"
+        >
+          <path
+            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+          ></path>
+        </svg>
+      </a>
+      <a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current"
+        >
+          <path
+            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+          ></path>
+        </svg>
+      </a>
+    </div>
+  </nav>
+</footer>
+
+</body>
+</html

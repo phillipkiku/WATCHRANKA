@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/jpg/x-icon" href="/logoicon.png" />
+    <title>Movies</title>
+  </head>
+  <body style="font-family: Nunito Sans, sans-serif;">
+    <header>
+      <div class="navbar bg-base-100 fixed z-[2]">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="red"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu text-[1.2rem] dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-60 p-2 shadow text-[red]"
+            >
+              <li><a href="./movies&shows.html" class="justify-around">Movies & Tv-Shows</a></li>
+              <li><a href="./news.html" class="justify-around">News</a></li>
+            </ul>
+          </div>
+          <img src="./logoicon.png" class="w-[2rem] mx-[0.5rem]" alt="icon">
+          <a href="./index.html" class="text-bold text-white text-xl"
+            >WatchRanka</a
+          >
+
+        </div>
+        <!--
+                <div class="navbar-">
+                  <a class="btn btn-ghost text-xl text-[red] text-bold">WatchRanka</a>
+                </div>-->
+        <div class="navbar-end">
+          <button class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </button>
+          <button class="btn btn-ghost btn-circle">
+            <div class="indicator">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                />
+              </svg>
+              <span class="badge badge-xs badge-primary indicator-item"></span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--First Image Section-->
+      <div>
+        <h1 class="text-[3rem] md:text-[4rem] pt-[3rem] text-center font-extrabold text-[red]">
+          MOVIES & TV-SHOWS
+        </h1>
+      </div>
+
+      <div class="flex py-[2rem]">
+        <div class="flex-none w-14 bg-[#950217]"></div>
+        <div
+          class="flex-none font-bold md:w-80 text-center md:text-[2rem] text-white"
+        >
+          New Releases.
+        </div>
+        <div class="flex-none md:flex-1 bg-[#950217]"></div>
+      </div>
+
+      <div
+        class="carousel carousel-center md:w-[95%] ml-[2.5%] my-[2rem] rounded-box space-x-4"
+      >
+        <div class="carousel-item flex flex-col md:w-[20rem]">
+          <img
+            src="./heretics.jpg"
+            class="rounded-box h-[30vh] md:h-[65vh]"
+          />
+          <a
+            href="https://www.youtube.com/watch?v=O9i2vmFhSSY&pp=ygUQSEVSRVRJQ1MgdHJhaWxlcg%3D%3D"
+          >
+          <div
+            class="text-xl w-[75%] ml-[12.5%] mt-[1rem] h-[4rem] border-base-300 bg-[#7E0315] font-medium text-center text-[white] btn btn-primary"
+          >
+            HERETICS<br />
+            Watch Trailer
+          </div></a>
+        </div>
+
+        <div class="carousel-item flex flex-col md:w-[20rem]">
+          <img src="./smallthingslikethese.jpg" class="rounded-box h-[30vh] md:h-[65vh]" />
+<a href="https://www.youtube.com/watch?v=O9i2vmFhSSY&pp=ygUQSEVSRVRJQ1MgdHJhaWxlcg%3D%3D">
+          <div
+            class="text-xl w-[75%] ml-[12.5%] mt-[1rem] h-[4rem] border-base-300 bg-[#7E0315] font-medium text-center text-[white] btn btn-primary"
+          >
+            SMALL THINGS<br />
+            Watch Trailer
+          </div></a>
+        </div>
+
+        <div class="carousel-item flex flex-col md:w-[20rem]">
+          <img src="./pianolesson.jpg" class="rounded-box h-[30vh] md:h-[65vh]" />
+<a href="https://www.youtube.com/watch?v=cZwjt0pjt8w&pp=ygUYdGhlIHBpYW5vIGxlc3NvbiB0cmFpbGVy">
+          <div
+            class="text-xl w-[75%] ml-[12.5%] mt-[1rem] h-[4rem] border-base-300 bg-[#7E0315] font-medium text-center text-[white] btn btn-primary"
+          >
+            THE PIANO LESSON<br />
+            Watch Trailer
+          </div></a>
+        </div>
+
+        <div class="carousel-item flex flex-col md:w-[20rem]">
+          <img src="./therealpain.jpg" class="rounded-box h-[30vh] md:h-[65vh]" />
+<a href="https://www.youtube.com/watch?v=b2et8Vpu7Ls&pp=ygUVdGhlIHJlYWwgcGFpbiB0cmFpbGVy">
+          <div
+            class="text-xl w-[75%] ml-[12.5%] mt-[1rem] h-[4rem] border-base-300 bg-[#7E0315] font-medium text-center text-[white] btn btn-primary"
+          >
+            A REAL PAIN<br />
+            Watch Trailer
+          </div></a>
+        </div>
+
+        <div class="carousel-item flex flex-col md:w-[20rem]">
+          <img src="./joker.jpg" class="rounded-box h-[30vh] md:h-[65vh]" />
+          <div
+            class="text-xl w-[75%] ml-[12.5%] mt-[1rem] h-[4rem] border-base-300 bg-[#7E0315] font-medium text-center text-[white] btn btn-primary"
+          >
+            JOKER<br />
+            Watch Trailer
+          </div>
+        </div></a>
+      </div>
+
+      <!--Second Image section-->
+
+      <div class="flex py-[2rem]">
+        <div class="flex-none w-14 bg-[#950217]"></div>
+        <div
+          class="flex-none font-bold w-80 text-center text-[2rem] text-white"
+        >
+          Trending This Week.
+        </div>
+        <div class="flex-none md:flex-1 bg-[#950217]"></div>
+      </div>
+
+      <section class=" md:flex ">
+        <div class="md:flex md:flex-col w-[80%] ml-[10%] md:w-[70%]">
+          <div class="md:flex justify-around">
+          <div>
+            <img
+              src="./arcane.jpg"
+              class="rounded-box md:h-[70vh]"
+            />
+            <!-- <video src="https://www.youtube.com/watch?v=q_MaCi7i180&pp=ygUHdHJhaWxlcg%3D%3D"></video>
+                    <iframe class="w-full aspect-video ..." src="https://www.youtube.com/watch?v=q_MaCi7i180&pp=ygUHdHJhaWxlcg%3D%3D"></iframe> -->
+            <div
+              tabindex="0"
+              class="collapse border-base-300 bg-base-200 border mt-[1rem]"
+            >
+            <a href="https://www.youtube.com/watch?v=ysqiEC6bLUI&pp=ygUXYXJjYW5lIHNlYXNvbiAyIHRyYWlsZXI%3D">
+              <div
+                class="collapse-title text-xl font-bold text-center text-[red]"
+              >
+                ARCANE: League of Legends. <br />
+                Play Trailer.
+              </div>
+            </a>
+            </div>
+          </div>
+          
+          <div>
+            <img
+              src="./thedayofthejackal.jpg"
+              class="rounded-box md:h-[70vh]"
+            />
+            <!-- <video src="https://www.youtube.com/watch?v=q_MaCi7i180&pp=ygUHdHJhaWxlcg%3D%3D"></video>
+                    <iframe class="w-full aspect-video ..." src="https://www.youtube.com/watch?v=q_MaCi7i180&pp=ygUHdHJhaWxlcg%3D%3D"></iframe> -->
+            <div
+              tabindex="0"
+              class="collapse border-base-300 bg-base-200 border mt-[1rem]"
+            > <a href="https://www.youtube.com/watch?v=shsIx-ZVL0E&pp=ygUddGhlIGRheSBvZiB0aGUgamFja2FsIHRyYWlsZXI%3D">
+              <div
+                class="collapse-title text-xl font-bold text-center text-[red]"
+              >
+                The Day of the Jackal<br />
+                Play Trailer.
+              </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+          <div>
+            <img
+              src="./the-lincoln-lawyer.jpg"
+              class="rounded-box md:h-[70vh] md:w-[90%] md:ml-[5%] my-[3%] "
+            />
+            <!-- <video src="https://www.youtube.com/watch?v=q_MaCi7i180&pp=ygUHdHJhaWxlcg%3D%3D"></video>
+                    <iframe class="w-full aspect-video ..." src="https://www.youtube.com/watch?v=q_MaCi7i180&pp=ygUHdHJhaWxlcg%3D%3D"></iframe> -->
+            <div
+              tabindex="0"
+              class="collapse border-base-300 bg-base-200 border mt-[1rem] w-[90%] ml-[5%]"
+            > <a href="https://www.youtube.com/watch?v=u-sLh8-ohzc&pp=ygUXbGluY29sbiBsYXd5ZXIgc2Vhc29uIDE%3D">
+              <div
+                class="collapse-title text-xl font-bold text-center text-[red] "
+              >
+                The Lincoln Lawyer <br />
+                Play Trailer.
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-around">
+          <div class="md:w-[21rem] md:mr-[2rem] ">
+            <img src="./thediplomat.jpg" class="rounded-box md:h-[60vh] w-[80%] ml-[10%]" />
+            <div
+              tabindex="0"
+              class="collapse border-base-300 bg-[#7E0315] border my-[0.5rem] w-[80%] ml-[10%] my-[1rem]"
+            > <a href="https://www.youtube.com/watch?v=lV6sJlBbhPs&pp=ygUUdGhlIGRpcGxvbWF0IHRyYWlsZXI%3D">
+              <div
+                class="text-xl font-bold text-center text-[white]"
+              >
+                The Diplomat <br />
+                Play Trailer.
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="md:w-[21rem] md:mr-[2rem]">
+            <img src="./shrinking.jpg" class="rounded-box md:h-[60vh] w-[80%] ml-[10%]" />
+            <div
+              tabindex="0"
+              class="collapse border-base-300 bg-[#7E0315] border my-[0.5rem] w-[80%] ml-[10%] my-[1rem]"
+            > <a href="https://www.youtube.com/watch?v=YjHfjQDWl1A&pp=ygURc2hyaW5raW5nIHRyYWlsZXI%3D">
+              <div
+              class="text-xl font-bold text-center text-[white]"
+              > 
+                Shrinking <br />
+                Play Trailer.
+              </div>
+             </a>
+            </div>
+          </div>          
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer footer-center bg-[#7E0315] text-white p-5 mt-[2rem]">
+      <aside>
+        <img class="w-[3rem]" src="./logoicon.png" alt="logoicon" />
+        <p class="font-bold text-xl">
+          WatchRanka
+          <br />
+          Providing reliable entertainment since 2024
+        </p>
+        <p>Copyright © - All right reserved</p>
+      </aside>
+      <nav>
+        <div class="grid grid-flow-col gap-4">
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+              ></path>
+            </svg>
+          </a>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+              ></path>
+            </svg>
+          </a>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
